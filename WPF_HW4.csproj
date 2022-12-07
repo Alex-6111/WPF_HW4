@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\Center\arrowright.png" />
+    <None Remove="assets\Center\Artist.png" />
+    <None Remove="assets\Center\clock.png" />
+    <None Remove="assets\Center\dots.png" />
+    <None Remove="assets\Center\Frame47.png" />
+    <None Remove="assets\Center\headphone.png" />
+    <None Remove="assets\Center\image139.png" />
+    <None Remove="assets\Center\like.png" />
+    <None Remove="assets\Center\verified.png" />
+    <None Remove="assets\LeftBar\albums.png" />
+    <None Remove="assets\LeftBar\discover.png" />
+    <None Remove="assets\LeftBar\Favorite.png" />
+    <None Remove="assets\LeftBar\home.png" />
+    <None Remove="assets\LeftBar\local.png" />
+    <None Remove="assets\LeftBar\music_add.png" />
+    <None Remove="assets\LeftBar\playlist.png" />
+    <None Remove="assets\LeftBar\podcast.png" />
+    <None Remove="assets\LeftBar\radio.png" />
+    <None Remove="assets\Logo.png" />
+    <None Remove="assets\RightBar\Arrow2.png" />
+    <None Remove="assets\RightBar\Artist.png" />
+    <None Remove="assets\RightBar\Ellipse1.png" />
+    <None Remove="assets\RightBar\premium.png" />
+    <None Remove="assets\RightBar\Rectangle6166.png" />
+    <None Remove="assets\RightBar\Rectangle6167.png" />
+    <None Remove="assets\RightBar\Rectangle6168.png" />
+    <None Remove="assets\RightBar\Rectangle6169.png" />
+    <None Remove="assets\RightBar\Rectangle6170.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\Center\arrowright.png" />
+    <Resource Include="assets\Center\Artist.png" />
+    <Resource Include="assets\Center\clock.png" />
+    <Resource Include="assets\Center\dots.png" />
+    <Resource Include="assets\Center\Frame47.png" />
+    <Resource Include="assets\Center\headphone.png" />
+    <Resource Include="assets\Center\image139.png" />
+    <Resource Include="assets\Center\like.png" />
+    <Resource Include="assets\Center\verified.png" />
+    <Resource Include="assets\RightBar\Artist.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\LeftBar\albums.png" />
+    <Resource Include="assets\LeftBar\discover.png" />
+    <Resource Include="assets\LeftBar\Favorite.png" />
+    <Resource Include="assets\LeftBar\home.png" />
+    <Resource Include="assets\LeftBar\local.png" />
+    <Resource Include="assets\LeftBar\Logo.png" />
+    <Resource Include="assets\LeftBar\music_add.png" />
+    <Resource Include="assets\LeftBar\playlist.png" />
+    <Resource Include="assets\LeftBar\podcast.png" />
+    <Resource Include="assets\LeftBar\radio.png" />
+    <Resource Include="assets\RightBar\Arrow2.png" />
+    <Resource Include="assets\RightBar\Ellipse1.png" />
+    <Resource Include="assets\RightBar\premium.png" />
+    <Resource Include="assets\RightBar\Rectangle6166.png" />
+    <Resource Include="assets\RightBar\Rectangle6167.png" />
+    <Resource Include="assets\RightBar\Rectangle6168.png" />
+    <Resource Include="assets\RightBar\Rectangle6169.png" />
+    <Resource Include="assets\RightBar\Rectangle6170.png" />
+  </ItemGroup>
+
+</Project>
